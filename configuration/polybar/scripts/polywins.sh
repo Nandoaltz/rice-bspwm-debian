@@ -184,6 +184,7 @@ generate_window_list() {
       firefox) w_name='' ;;
       kitty) w_name='󰄛' ;;
       figma-linux) w_name='' ;;
+	   DBeaver) w_name='󰆼' ;;
       *) if [[ "$cls" == "Xfce4-terminal" ]]; then
           w_name=""
         else
